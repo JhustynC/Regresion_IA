@@ -36,6 +36,7 @@ xs = np.arange(-5, 5, step=delta)
 ys = [cost_function(theta, x, y) for theta in xs]
 theta_1 = find_theta()
 
+#----Parametros para grafica-----
 plt.figure(figsize=(10, 8))
 plt.subplot(2, 1, 1)
 plt.scatter(x, y)
